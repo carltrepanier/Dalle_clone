@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-import { surpriseMePrompts } from '../constant';
+import { surpriseMePrompts } from '../constants';
 
 export function getRandomPrompt() {
   const randomIndex = Math.floor(Math.random() * surpriseMePrompts.length);
